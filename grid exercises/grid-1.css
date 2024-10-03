@@ -1,5 +1,11 @@
 div > *{
-    border: 8px ridge yellow;
+    /*border: 8px ridge yellow;*/
+    border-image-source: linear-gradient(90deg, yellowgreen 50%, lavender 50%);
+    border-image-repeat: round;
+    
+    border-image-slice: 10;
+    border-image-width: 4px;
+    border-image-outset: 20px;
 }
 
 div{
@@ -37,4 +43,5 @@ aside:nth-child(2){
 *{
     padding: 0px;
     margin: 0px;
+    background-color: rgb(255, 252, 254);
 }
