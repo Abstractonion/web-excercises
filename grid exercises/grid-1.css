@@ -15,6 +15,7 @@ div{
     "e e e"
     ;
     gap: 24px;
+    padding: 24px;
 }
 
 aside:nth-child(5){
@@ -31,4 +32,9 @@ aside:nth-child(4){
 
 aside:nth-child(2){
     grid-area: e;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
 }
