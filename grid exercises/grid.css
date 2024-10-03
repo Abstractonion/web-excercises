@@ -3,7 +3,7 @@ aside{
 }
 
 div{
-    padding-inline: 80px;
+    /*padding-inline: 80px;
     /*align-content: center;*/
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -24,4 +24,10 @@ div > :nth-child(4){
 
 div > :nth-child(2){
     grid-area: 6/1/7/4;
+}
+
+*{
+    padding: 40px;
+    margin: 0px;
+    background-color: rgb(255, 252, 254);
 }
