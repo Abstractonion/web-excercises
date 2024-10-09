@@ -8,3 +8,31 @@ section{
     margin: 25px auto;
     border: 10px solid blue;
 }
+
+section:nth-of-type(1){
+    background-color: linear-gradient(to right, #008851, #FFFFFF, #008851);
+}
+
+section:nth-of-type(2){
+    background-color: linear-gradient(to right, #008851, #FFFFFF, #008851);
+}
+
+section:nth-of-type(3){
+    background-color: linear-gradient(to right, #008851, #FFFFFF, #008851);
+}
+
+section:nth-of-type(4){
+    background-color: linear-gradient(to right, #008851, #FFFFFF, #008851);
+}
+
+section:nth-of-type(5){
+    background-color: linear-gradient(to right, #008851, #FFFFFF, #008851);
+}
+
+section:nth-of-type(6){
+    background-color: linear-gradient(to right, #008851, #FFFFFF, #008851);
+}
+
+section:nth-of-type(7){
+    background-color: linear-gradient(to right, #008851, #FFFFFF, #008851);
+}
