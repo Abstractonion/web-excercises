@@ -1,0 +1,47 @@
+div > *{
+    /*border: 8px ridge yellow;*/
+    border-image-source: linear-gradient(90deg, yellowgreen 50%, lavender 50%);
+    border-image-repeat: round;
+    
+    border-image-slice: 10;
+    border-image-width: 4px;
+    border-image-outset: 20px;
+}
+
+div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 150px);
+    grid-template-areas: 
+    "a a a"
+    "a a a"
+    "b b i"
+    "c h i"
+    "d f g"
+    "e e e"
+    ;
+    gap: 24px;
+    padding: 24px;
+}
+
+aside:nth-child(5){
+    grid-area: a;
+}
+
+aside:nth-child(1){
+    grid-area: b;
+}
+
+aside:nth-child(4){
+    grid-area: i;
+}
+
+aside:nth-child(2){
+    grid-area: e;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 252, 254);
+}
